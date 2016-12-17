@@ -12,8 +12,45 @@ body{
 	background: #D3D3D3;
 }
 
+
+div {
+	color: red;
+}
+
+
 .paragraph{
+	text-align: center;
 	display: block;
+	border : 1px solid black;
+	
+
+	left: 0;
+	right:0;
+}
+
+/*For Mobile*/
+@media (max-width: 767px) {
+    div footer{
+        color:blue;
+        font-size: 80%;
+        
+    }
+}
+
+/*For Mobile*/
+@media (min-width: 768) and (max-width: 991px) {
+    div footer {
+        color:yellow;
+        font-size: 100%;
+    }
+}
+
+/*For Mobile*/
+@media (min-width: 922px) {
+    div footer {
+        color:green;
+        font-size: 120%;
+    }
 }
 
 footer{
